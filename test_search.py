@@ -57,7 +57,7 @@ class TestWeChat():
         # self.driver.find_element(MobileBy.ID,'//*[@text="添加成功"]')
 
     def testing(self):
-        print("the home work pycharm ")
+        print("the home work ")
 
 
 
