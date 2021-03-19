@@ -1,3 +1,4 @@
+import yaml
 from appium import webdriver
 from xueqiu_appium.page.base_page import BasePage
 from xueqiu_appium.page.main import Main
@@ -12,6 +13,7 @@ class App(BasePage):
             caps = dict()
             caps["platformName"] = "Android"
             caps["deviceName"] = "hogwarts"
+            caps["udid"] = yaml.safe_load(open("../page/configuration.yaml"))['caps']['udid']
             caps["appPackage"] = self._package
             caps["appActivity"] = self._activity
             caps["noReset"] = True
