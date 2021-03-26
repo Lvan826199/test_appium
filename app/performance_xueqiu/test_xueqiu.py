@@ -17,7 +17,9 @@
 #     driver.find_element(By.XPATH,'//*[@text="交易"]').click()
 #     print(driver.page_source)
 #     webview=driver.contexts[-1]
+#     #切换到手机中的webview页面
 #     driver.switch_to.context(webview)
+#     #返回浏览器的各项时间的相关参数
 #     performance=driver.execute_script('return window.performance.timing')
 #     print(performance)
 #
