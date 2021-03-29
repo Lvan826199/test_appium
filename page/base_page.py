@@ -2,7 +2,6 @@ from appium import webdriver
 from appium.webdriver import webelement
 from appium.webdriver.common.mobileby import By
 import logging
-
 class BasePage():
     #弹框名单处理列表
     logging.basicConfig(level=logging.INFO)
