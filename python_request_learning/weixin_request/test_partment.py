@@ -26,3 +26,7 @@ def test_update():
 }
     res = requests.post(f"https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token={token}", json=data)
     print(res.text)
+
+
+
+
